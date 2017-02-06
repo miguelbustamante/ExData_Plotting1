@@ -11,5 +11,5 @@ subsetDates$Datetime <- as.POSIXct(paste(as.Date(subsetDates$Date), subsetDates$
 plot(meow$Global_active_power~subsetDates$Date, type="l",
      ylab="Global Active Power (kilowatts)", xlab="")
 
-dev.copy(png, file="plot1.png", height=480, width=480)
+dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()
